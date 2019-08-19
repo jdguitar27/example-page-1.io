@@ -1,0 +1,75 @@
+
+@media (max-width: 992px) { 
+    .nav-link, .navbar-brand, .navbar-toggler, .navbar-toggler-icon
+    {
+        color: white !important;
+    }
+    .bg-sm-dark
+    {
+        background-color: var(--gray-dark) !important;
+        color: white !important;
+    }
+ }
+
+body
+{
+    background-image: url('../../images/office-932926_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom-image
+{
+    background-image: url('../../images/home-office-336373_640.jpg');
+    background-size: cover;
+}
+
+.h-90
+{
+    height: 90% !important;
+}
+
+.custom-border
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.custom-opacity
+{
+    opacity: .7;
+}
+
+.custom-opacity2
+{
+    opacity: .8;
+}
+
+.shop-item
+{
+    width: 100% !important;
+    padding-top: 100% !important;
+    transition: opacity, .3s;
+    position: relative;
+}
+
+.shop-item:hover
+{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.item
+{
+    position: absolute;
+    top: 42%;
+    left: 36%;
+    bottom: 0;
+    right: 0;
+
+}
+
+.zoom {transition: transform .3s;}
+
+.zoom:hover {transform: scale(1.07);}
