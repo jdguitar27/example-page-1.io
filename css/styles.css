@@ -72,4 +72,4 @@ body
 
 .zoom {transition: transform .3s;}
 
-.zoom:hover {transform: scale(1.07);}
+.zoom:hover {transform: scale(1.05);}
